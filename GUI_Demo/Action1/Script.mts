@@ -1,5 +1,6 @@
 ﻿'Browser("Advantage Shopping").Page("Advantage Shopping").WebTable("PRODUCT NAME").GetCellData
-Browser("Advantage Shopping").Page("Advantage Shopping").Link("SPEAKERS").Click
+'Browser("Advantage Shopping").Page("Advantage Shopping").Link("SPEAKERS").Click
+Browser("Advantage Shopping_2").Page("Advantage Shopping").WebElement("speakersTxt").Click
 
 Browser("Advantage Shopping").Page("Advantage Shopping").WebButton("buy_now").Click @@ script infofile_;_ZIP::ssf2.xml_;_
 Browser("Advantage Shopping").Page("Advantage Shopping").WebEdit("quantity").Set DataTable("nItem", dtGlobalSheet) @@ script infofile_;_ZIP::ssf3.xml_;_
